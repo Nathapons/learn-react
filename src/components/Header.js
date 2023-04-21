@@ -1,6 +1,11 @@
+import Logo from '../image/logo.png';
+
 function Header() {
     return (
-        <h1>Kongruksiam</h1>
+        <nav>
+            <img src={Logo} alt='logo' />
+            <a href='/'>หน้าแรก</a>
+        </nav>
     )
 }
 
